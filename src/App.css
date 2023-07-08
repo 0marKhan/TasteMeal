@@ -1,0 +1,7 @@
+html {
+  transform: scale(0.67);
+  transform-origin: 0 0;
+  width: 150%; /* Adjust the width as needed */
+  height: 150%;
+  overflow-x: hidden;
+}
