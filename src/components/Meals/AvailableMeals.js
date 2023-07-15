@@ -48,6 +48,8 @@ const AvailableMeals = () => {
 
       const responseData = await response.json();
 
+      console.table(responseData);
+
       const loadedMeals = [];
 
       for (const key in responseData) {

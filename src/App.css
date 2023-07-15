@@ -1,4 +1,9 @@
 html {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body {
   transform: scale(0.67);
   transform-origin: 0 0;
   width: 150%; /* Adjust the width as needed */
